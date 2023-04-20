@@ -1,0 +1,46 @@
+
+
+:root{
+    --grayish-blue: hsl(229, 8%, 60%);
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+    --VeryDarkish-blue: hsl(229, 31%, 21%);
+
+}
+
+
+.navBar{
+    padding: 4vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list span{
+    margin-right: 15px;
+    color: var(--grayish-blue);
+    transition: all ease-in-out .2s;
+}
+
+.list span:hover{
+    color: var(--soft-red);
+}
+
+button{
+    background-color: var(--soft-red);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
